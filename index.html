@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav >
+                <img src="FOLIO.png" class="logo">
+                <ul  id="menuItems">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Service</a></li>
+                    <li> <a href="#moreservices"> More Service</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                 
+                </ul>
+               <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+                
+            </nav>
+            <div class="box6">
+             <span id="element"></span>
+                
+            </div>
+            <hr>
+           <br><br>
+            <div class="box4">
+                <h5>UI/UX Designer</h5>
+                <img src="FB_IMG2.jpg" alt= muster height="200px" width="300px"> 
+                <div class="header-text">
+                    <h6>Hi, I am <span>Mike</span> a <br> web designer <br> and web developer</h6>  
+                </div>
+        </div>
+    </div>
+    <hr>
+    
+
+    <!-----------about-------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+             <div class="about-col-1">
+                <img src="mark.jpg" >
+             </div>
+             <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>I specialize in crafting websites that stand out in the digital realm. Learn how startegic
+                     keywords,quality content and smart web sites
+                     structuring can  work in harmony to skyrocket your site to the top of search engine results.
+                     Ready to market your digital presence shine? Stay tuned in my youtube channel and descover
+                       how I can evaluate your online visability with precision and my expertise!</p>
+
+                       <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> 
+            
+                       </div>
+                     
+                       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span> <br>Designing web/App interface</li>
+                            <li><span>Web developer</span> <br>Web app development</li>
+                            <li><span>Graph Design</span> <br>Designing graphics</li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="Experince">
+                        <ul>
+                            <li><span>2024-currently </span><br>H & H hospital as a web designer</li>
+                            <li><span> jan-2023-Dec-2023</span><br>Internship; county government</li>
+                            <li><span>sep 2022-Dec-2022</span><br>pursusing cyber security </li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2024-currently </span><br>H & H hospital as a web designer</li>
+                            <li><span> jan-2023-Dec-2023</span><br>Internship; county government</li>
+                            <li><span>sep 2022-Dec-2022</span><br>pursusing cyber security </li>
+                        </ul>
+                       </div>
+                       
+             </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------services---->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="work-list">
+                <div class="work">
+                 <img src="kra.jpeg" alt= image height="400px" width="300px">
+                 <div class="layer1">
+                 <h3>K.R.A Services</h3>
+                 <hr>
+                 <p>✔Filling Returns</p> 
+                 <p>✔KRA Clearance Certificate</p>
+                </div>
+            </div>
+                <div class="work">
+                    <img src="ecitizen.jpeg" alt= image height="400px" width="300px"> 
+                    <div class="layer1">
+                    <h3>E-citizen Services</h3>
+                    <hr>
+                    <UL>✔Good Conduct Application</UL>
+                    <ul>✔Helb Application</ul>
+                    <ul>✔NTSA</ul>
+                    
+                 </div>
+                </div>
+           
+                <div class="work">
+                    <img src="printer.jpg" alt= image height="400px" width="300px"> 
+                    <div class="layer1">
+                    <h3>Other services</h3>
+                    <hr>
+                    <UL>✔Printing</UL>
+                    <ul>✔Photocopy</ul>
+                    <ul>✔Scanning</ul>
+                    <ul>✔Photoshoot</ul>
+                    <ul>✔ Designing graphics</ul>
+                    
+                 </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+<!---------More services------>
+
+<div id="moreservices">
+    <div class="container">
+        <h1 class="sub-title">More services</h1>
+        <div class="work-list">
+            <div class="work">
+             <img src="FB_IMG.jpg" alt= image height="400px" width="300px">
+             <div class="layer">
+             <h3>Web Designer</h3>
+             <hr>
+             <p>Web Design is all about the looks - choosing colors, shapes, and layout to make website visually appealing and user friendly</p>
+            </div>
+        </div>
+            <div class="work">
+                <img src="FB_IMG2.jpg" alt= image height="400px" width="300px"> 
+                <div class="layer">
+                <h3>Web Development</h3>
+                <p>Web development is all about bringing functionality to life
+                    by writing the code that makes the website work as intended.
+                    It's like constructing the building based on the design plans.
+                </p>
+             </div>
+            </div>
+            <div class="work">
+                <img src="muster.jpg" alt= muster height="400px" width="300px">
+                <div class="layer">
+                 <h3>User interface</h3>
+                 <hr>
+                 <p>Designing the look for the the user to interact with it easy</p>
+            </div>
+        </div>
+        </div>
+        <a href="more product.html" class="btn">See more</a>
+    </div>
+</div>
+
+<!--------contact-->
+<div id="contact">
+    <div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p>📧gk0798413@gmail.com</p>
+            <p>📞 0114949493</p>
+            <a href="KIP-COHORT-6-INTERNSHIP-ADVERT.pdf" download class="btn btn2">Download CV</a>
+            
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your name" required>
+                <input type="email" name="Email" placeholder="Your email" required>
+                <textarea name="Message" name="Message" rows="10" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn2 btn3">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    </div>
+ 
+</div>
+
+
+<!---footer-->
+
+<section id="footer">
+    <img src="FB_IMG2.jpg" class="footer-img" >
+    <div class="title-text">
+    
+        <H1><i><b> VISIT OUR CYBER TODAY AND ENJOY OUR SERVICES</b></i></H1> 
+        </div>
+        <div class="footer-row">
+           <div class="footer-left">
+            <h1>Opening Hours</h1>
+            <p>Monday-friday 800hrs-1700hrs</p> <br>
+            <p>saturday-sunday 900hrs-1600hrs</p>
+           </div> 
+          
+           <div class="footer-right">
+            <h1>Get in Touch</h1>
+            <p>1001,Moi avenue-Nairobi</p>
+            <p>mike403155@gmail.com</p>
+            <p>+2540114949493</p>
+           </div>         
+        </div>
+        <div class="Social-links">
+            <i class="fa fa-facebook"></i>
+            
+        </div>  
+</section>
+<div class="last-container">
+    <h1>location</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.
+    8173395296985!2d36.82098707437675!3d-1.2834620356218007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+    1!3m3!1m2!1s0x182f10d6678064cf%3A0x956bb6f5e0ab2aac!2sMoi%20Ave%2C%20Nairobi!5e0!3m2!
+    1sen!2ske!4v1706713811138!5m2!1sen!2ske" width="600" height="450" style="border:0;"
+     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div class="box6" >
+    <span id="element1"></span>
+</div>
+<div class="copyright">
+    <hr>
+    <p>Copyright@Mike2024</p>
+</div>
+
+
+
+
+
+
+  <!----------js for toggle menu-------->
+  <script>
+    var menuItems = document.getElementById("menuItems")
+    menuItems.style.maxHeight = "0px"
+
+    function menutoggle() {
+        if (menuItems.style.maxHeight == "0px") {
+            menuItems.style.maxHeight = "200px";
+        } else {
+            menuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+ 
+
+ <!-- Load library from the CDN -->
+ <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ["Contact me: ", "What's App: 0114949493",  "'And let's build a digital future"," with integrity.'", 
+
+            ],
+            typeSpeed: 150,
+        });
+    </script>
+        <script>
+            var typed = new Typed('#element1', {
+                strings: ["   ALL AT AFFORDABLE PRICES!.",  
+    
+                ],
+                typeSpeed: 150,
+            });
+        </script>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+          for(tablink of tablinks){
+            tablink.classlist.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+            tabcontent.classlist.remove("active-tab");
+          }  
+          event.currentTarget.classlist.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+        <!----------google sheet script---------->
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxH36_F86HWzE1Jik2slRzP0zMQ2uaKBHNse81vOeJrcFOk_-9YFbbm-6NGs7aw1jNyHg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                 msg.innerHTML="message sent successfuly"
+                 setTimeout (function(){
+                    msg.innerHTML=""
+                 },5000)
+                 form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
